@@ -1,8 +1,8 @@
 #!/bin/bash --login
 usage() {
   echo "USAGE: ${0} <target_ip> <lhost> <lport> <x86|x64> <target_id 0|1>"
-  echo "Target ID: 0 => Microsoft Windows Windows 7/2008 R2 (x64)"
-  echo "Target ID: 1 => Microsoft Windows Windows 8/8.1/2012 R2 (x64)"
+  echo "Target ID: 0 => Microsoft Windows Windows 7/2008 R2 (x86/x64)"
+  echo "Target ID: 1 => Microsoft Windows Windows 8/8.1/2012 R2 (x86/x64)"
   exit 1
 }
 
